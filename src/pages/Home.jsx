@@ -2,7 +2,7 @@ function Home() {
   return (
     <div className="container">
       <div className="profile">
-        <img src="/dika.jpg" alt="My Photo" />
+        <img src={`${import.meta.env.BASE_URL}dika.jpg`} alt="My Photo" />
       </div>
 
       <div className="card">
